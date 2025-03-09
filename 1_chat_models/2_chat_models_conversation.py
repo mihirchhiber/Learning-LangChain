@@ -1,4 +1,4 @@
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_ollama.llms import OllamaLLM
 
 llm = OllamaLLM(model="llama3.2")

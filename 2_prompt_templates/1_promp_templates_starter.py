@@ -1,6 +1,5 @@
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
-from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_ollama.llms import OllamaLLM
 
 llm = OllamaLLM(model="llama3.2")
 
