@@ -35,7 +35,7 @@ query = "Can you calculate my wage per hour if I am earing 15000 per month when 
 
 # Create a LANGSMITH_API_KEY in Settings > API Keys
 from langsmith import Client
-client = Client(api_key="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")
+client = Client(api_key="")
 prompt = client.pull_prompt("hwchase17/react", include_model=True)
 
 tools = [get_system_time, evaluate_expression]
